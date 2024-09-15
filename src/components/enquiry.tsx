@@ -1,8 +1,7 @@
 "use client";
-import z from "zod";
+import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-
 import {
   Form,
   FormControl,
@@ -21,49 +20,96 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CalendarIcon } from "@radix-ui/react-icons";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
-import axios from "axios";
+import axios, { AxiosError } from "axios";
 import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
+import {useDebounceValue} from 'usehooks-ts';
+import { useToast } from "@/hooks/use-toast";
+import {enquirySchema} from "@/schemas/enquirySchema";
+export default function EnquiryForm(){
+   
+    //coding for form handling
+    //FOR THE FORM FIELDS 
+    const [name, setName] = useState('')
+    const [mobile, setMobile] = useState('')
+    const [email, setEmail] = useState('')
+    const [emailMessage, setEmailMessage] = useState('')
+    const [date, setDate] = useState('')
 
+    //loding state during form filling state
+    const [isFormFilling, setIsFormFilling] = useState(false)
+    //form submitting state
+    const [isSubmitting, setIsSubmitting] = useState(false)
 
+    //checking email if already exist or not
+    const debouncedEmail = useDebounceValue(email, 600)
 
-const formSchema = z.object({
-  name: z
-    .string()
-    .min(5, { message: "Name must have 6 characters" })
-    .max(12, { message: "Name should not be more than 12 characters" })
-    .regex(/^[a-zA-Z]+[-'s]?[a-zA-Z ]+$/, "Name must have only Characters and whitespaces"),
-  mobile: z.string().min(10, "Mobile Number should be 10 character long").regex(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/, "Invalid Mobile Number"),
-  email: z.string().email({ message: "Invalid Email Address" }),
-  date: z.coerce.date()
-});
+    //initiate toaster for messages
+    const {toast} = useToast()
 
-export function EnquiryForm() {
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-  });
+    //router for using it
+    const router = useRouter()
 
+    //zod implementation
 
-  const [loading, setLoading] = useState(false);
-  const onSubmit = async (values: z.infer<typeof formSchema>)=>{
-    try {
-        setLoading(true)
-        const response = await axios.post('/api/enquiry')
-        console.log('Enquiry Success', response.data)
+    const form = useForm<z.infer<typeof enquirySchema>>({
+      resolver : zodResolver(enquirySchema),
+      defaultValues : {
+        name : '',
+        mobile: '',
+        email : '',
+        date : '' 
+      }
+    })
 
-    } catch (error: any) {
-        console.log("Error in Sign Up")
-        toast.error(error.message)
+    //checking email already exist or not
+    useEffect(()=>{
+      const checkEmail = async()=>{
+        if(debouncedEmail){
+          setIsFormFilling(true)
+          setEmailMessage('')
+          try {
+            console.log('Use Effects');
+            //const res = await axios.get(`/api/check-email?email=${debouncedEmail}`)
+            //setEmailMessage(res.data.message)
+          } catch (error) {
+            const axiosError = error as AxiosError
+          }finally{
+            setIsFormFilling(false)
+          }
+        }
+      }
+      checkEmail();
+    }, [debouncedEmail])
+
+    const onSubmit = async (data : z.infer<typeof enquirySchema>)=>{
+      setIsSubmitting(true)
+      try {
+        const res = await axios.post('/api/enquiry', data)
+        toast({
+          title : 'Successfull Enquiry',
+          description : res.data.message
+        })
+        router.push('/home')
+        setIsSubmitting(false)
+      } catch (error) {
+        console.error('error in enquiry', error)
+        toast({
+          title: 'Error',
+          description : "No Description",
+          variant : 'destructive'
+        })
+        setIsSubmitting(false)
+      }
 
     }
     
-}
-
-
-
+    
+    
   return (
     <section className="enquiry">
       <div className="mt-10 text-white flex justify-center">
@@ -100,7 +146,12 @@ export function EnquiryForm() {
                       <FormItem>
                         <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Enter Your Name" {...field} />
+                          <Input placeholder="Enter Your Name" {...field} 
+                            onChange={(e)=>{
+                              field.onChange(e) 
+                              setName(e.target.value)
+                            }}
+                          />
                         </FormControl>
                         <FormDescription>
                           Your date of birth is used to calculate your age.
@@ -120,6 +171,10 @@ export function EnquiryForm() {
                           <Input
                             placeholder="Enter Your Mobile Number"
                             {...field}
+                            onChange={(e)=>{
+                              field.onChange(e) 
+                              setMobile(e.target.value)
+                            }}
                           />
                         </FormControl>
                         <FormDescription>
@@ -137,7 +192,12 @@ export function EnquiryForm() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your Email Address" {...field} />
+                          <Input placeholder="Your Email Address" {...field} 
+                          onChange={(e)=>{
+                            field.onChange(e) 
+                            setEmail(e.target.value)
+                          }}
+                          />
                         </FormControl>
                         <FormDescription>
                           Your date of birth is used to calculate your age.
@@ -158,6 +218,10 @@ export function EnquiryForm() {
                             <FormControl>
                               <Button
                                 variant={"outline"}
+                                onChange={(e)=>{
+                                  field.onChange(e) 
+                                }}
+
                                 className={cn(
                                   "w-[240px] pl-3 text-left font-normal",
                                   !field.value && "text-muted-foreground"
@@ -175,12 +239,7 @@ export function EnquiryForm() {
                           <PopoverContent className="w-auto p-0" align="start">
                             <Calendar
                               mode="single"
-                              selected={field.value}
                               onSelect={field.onChange}
-                              disabled={(date) =>
-                                date > new Date() ||
-                                date < new Date("1900-01-01")
-                              }
                               initialFocus
                             />
                           </PopoverContent>
@@ -195,7 +254,7 @@ export function EnquiryForm() {
                 </div>
 
                 <div className="flex justify-center mt-6">
-                  <Button onClick={onSubmit}
+                  <Button
                     type="submit"
                     className="bg-red-900 text-white font-extrabold text-lg rounded-full px-6 py-3"
                   >
@@ -210,3 +269,6 @@ export function EnquiryForm() {
     </section>
   );
 }
+
+
+  

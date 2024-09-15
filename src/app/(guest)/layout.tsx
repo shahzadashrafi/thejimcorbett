@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/header";
-import { EnquiryForm } from "@/components/enquiry";
 import Footer from "@/components/footer";
 import { url } from "inspector";
+import EnquiryForm from "@/components/enquiry";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <main>
           
         {children}
+        <Toaster/>
         <EnquiryForm />
         <Footer />
         </main>
