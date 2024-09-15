@@ -153,9 +153,7 @@ export default function EnquiryForm(){
                             }}
                           />
                         </FormControl>
-                        <FormDescription>
-                          Your date of birth is used to calculate your age.
-                        </FormDescription>
+                        
                         <FormMessage />
                       </FormItem>
                     )}
@@ -177,9 +175,7 @@ export default function EnquiryForm(){
                             }}
                           />
                         </FormControl>
-                        <FormDescription>
-                          Your date of birth is used to calculate your age.
-                        </FormDescription>
+                        
                         <FormMessage />
                       </FormItem>
                     )}
@@ -199,9 +195,7 @@ export default function EnquiryForm(){
                           }}
                           />
                         </FormControl>
-                        <FormDescription>
-                          Your date of birth is used to calculate your age.
-                        </FormDescription>
+                        
                         <FormMessage />
                       </FormItem>
                     )}
@@ -244,9 +238,7 @@ export default function EnquiryForm(){
                             />
                           </PopoverContent>
                         </Popover>
-                        <FormDescription>
-                          Your date of birth is used to calculate your age.
-                        </FormDescription>
+                        
                         <FormMessage />
                       </FormItem>
                     )}

@@ -3,11 +3,8 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { url } from "inspector";
 import EnquiryForm from "@/components/enquiry";
-import { Toaster } from "react-hot-toast";
-
-
+import { Toaster } from "@/components/ui/toaster";
 
 //FONT SETUP BY NEXT
 const inter = Inter({ subsets: ["latin"] });
@@ -29,12 +26,11 @@ export default function RootLayout({
     <html lang="en" className="">
       <body className="px-1 sm:px-[15%] bg-gradient-to-tr from-teal-300 to-green-500">
         <Header />
-        <main>
-          
-        {children}
-        <Toaster/>
-        <EnquiryForm />
-        <Footer />
+        <main> 
+          {children}
+          <Toaster/>
+          <EnquiryForm />
+          <Footer />
         </main>
       </body>
     </html>

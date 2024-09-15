@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
-import { EnquiryForm } from "./enquiry";
+import EnquiryForm  from "./enquiry";
 import {Pencil2Icon, TwitterLogoIcon, InstagramLogoIcon, GlobeIcon, EnvelopeClosedIcon, MobileIcon, SunIcon } from "@radix-ui/react-icons";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import Image from "next/image";
