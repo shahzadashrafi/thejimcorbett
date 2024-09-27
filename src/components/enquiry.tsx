@@ -113,11 +113,11 @@ export default function EnquiryForm(){
   return (
     <section className="enquiry">
       <div className="mt-10 text-white flex justify-center">
-        <span className="block font-semibold text-xl">Check Availability</span>
+        <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">Check Availability</h2>
       </div>
       <div className="overflow-hidden relative flex items-center min-h-60">
         <div className="relative inset-x-auto w-full z-10">
-          <div className="w-2/3 mb-10 md:w-full mx-auto shadow-md rounded-md p-4 ">
+          <div className="w-2/3 mb-10 md:w-full mx-auto border-solid rounded-md p-4 ">
             <div className="flex justify-end mb-3 text-red-600 gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ export default function EnquiryForm(){
                     name="date"
                     render={({ field }) => (
                       <FormItem className="flex flex-col">
-                        <FormLabel>Date of birth</FormLabel>
+                        <FormLabel className="py-1.5">Date of Visit</FormLabel>
                         <Popover>
                           <PopoverTrigger asChild>
                             <FormControl>
@@ -248,9 +248,10 @@ export default function EnquiryForm(){
                 <div className="flex justify-center mt-6">
                   <Button
                     type="submit"
-                    className="bg-red-900 text-white font-extrabold text-lg rounded-full px-6 py-3"
+                    size="lg"
+                    className="text-white font-extrabold text-lg rounded-full px-6 py-3 hover:text-black bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 text-center me-2 mb-2"
                   >
-                    Get Quote
+                    Check
                   </Button>
                 </div>
               </form>

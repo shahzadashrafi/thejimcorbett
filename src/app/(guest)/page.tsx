@@ -36,11 +36,11 @@ export default function Home() {
               />
             </AspectRatio>
             <div className="relative bottom-0 left-0 w-full px-6 py-2">
-              <h1 className="block -mb-1 text-xl font-black uppercase text-center pb-3 text-white drop-shadow-md">
+              <h1 className="max-w-7xl text-center pl-4 mx-auto text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
                 Jim Corbett Day Visit
               </h1>
               <div className="flex justify-between">
-                <Button variant="ghost">
+                <Button variant="details" size="lg">
                   <Dialog>
                     <DialogTrigger className="inline-flex">
                       <EyeOpenIcon />
@@ -160,11 +160,11 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                 </Button>
-                <Button variant="ghost">
+                <Button variant="enquiry" size="lg">
                   <Dialog>
                     <DialogTrigger className="inline-flex">
                       <EnvelopeOpenIcon />
-                      <span className="px-2">Enquiry</span>
+                      <span className="px-2">Get Enquiry</span>
                     </DialogTrigger>
                     <DialogContent>
                       <DialogHeader>
@@ -190,11 +190,11 @@ export default function Home() {
               />
             </AspectRatio>
             <div className="relative bottom-0 left-0 w-full px-6 py-2">
-              <h1 className="block -mb-1 text-xl font-black uppercase text-center pb-3 text-white drop-shadow-md">
+              <h1 className="max-w-7xl py-5 pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
                 Jim Corbett Day Visit
               </h1>
               <div className="flex justify-between">
-                <Button variant="ghost">
+                <Button variant="details" size="lg">
                   <Dialog>
                     <DialogTrigger className="inline-flex">
                       <EyeOpenIcon />
@@ -301,7 +301,7 @@ export default function Home() {
                                     </div>
                                     <div className="overflow-hidden relative flex items-center min-h-60">
                                       <div className="relative inset-x-auto w-full z-10">
-                                        <EnquiryForm />
+                                        <EnquiryForm/>
                                       </div>
                                     </div>
                                   </div>
@@ -314,11 +314,11 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                 </Button>
-                <Button variant="ghost">
+                <Button variant="enquiry" size="lg">
                   <Dialog>
                     <DialogTrigger className="inline-flex">
-                      <Pencil2Icon />
-                      <span className="px-2">Enquiry</span>
+                      <EnvelopeOpenIcon />
+                      <span className="px-2">Get Enquiry</span>
                     </DialogTrigger>
                     <DialogContent>
                       <DialogHeader>
@@ -342,7 +342,7 @@ export default function Home() {
 
         <div className="w-full h-full py-10">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Corbett National Park
+        Animals Pedia
       </h2>
       <Carousel items={cards} />
     </div>
@@ -392,40 +392,34 @@ const DummyContent = () => {
  
 const data = [
   {
-    category: "Experience Wildlife Exploration Tour",
-    title: "Jungle Safari",
+    category: "",
+    title: "Royal Bengal Tiger",
     src : "/hero1.png",
     content: <DummyContent />,
   },
   {
-    category: "Night Stay Accmmodations",
-    title: "Forest Stay",
-    src : "/hero1.png",
+    category: "",
+    title: "Asian Elephant",
+    src : "/elephant.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Wildlife",
-    title: "Attractions",
+    category: "",
+    title: "Leopard",
     src : "/hero1.png",
     content: <DummyContent />,
   },
  
   {
-    category: "The Jim Corbett National Park",
-    title: "Zones",
-    src : "/hero1.png",
+    category: "",
+    title: "Deers",
+    src : "/sambhar.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Extras",
-    title: "Activities",
-    src : "/hero1.png",
+    category: "",
+    title: "Crocodile",
+    src : "/crocodile.jpg",
     content: <DummyContent />,
-  },
-  {
-    category: "Nearby Places",
-    title: "Extra Tourisms",
-    src : "/hero1.png",
-    content: <DummyContent />,
-  },
+  }
 ];

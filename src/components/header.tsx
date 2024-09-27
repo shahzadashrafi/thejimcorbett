@@ -74,7 +74,7 @@ export default function Header(){
       </div>
       <div className="logo-container flex flex-auto items-center justify-center">
         <Image
-          src="./next.svg"
+          src="/logo.png"
           height={150}
           width={150}
           alt="TheJimCorbett Logo"
@@ -121,7 +121,7 @@ export default function Header(){
    
     <div className="logo-container flex flex-auto items-center justify-center">
       <Image
-        src="./next.svg"
+        src="/logo.png"
         height={150}
         width={150}
         alt="TheJimCorbett Logo"

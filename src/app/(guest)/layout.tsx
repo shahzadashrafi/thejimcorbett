@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import EnquiryForm from "@/components/enquiry";
 import { Toaster } from "@/components/ui/toaster";
+import Floaters from "@/components/floaters";
 
 //FONT SETUP BY NEXT
 const inter = Inter({ subsets: ["latin"] });
@@ -30,16 +31,21 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className="px-1 sm:px-[15%]" style={bgGradient}>
+      <Floaters/>
         <Header />
+        
         <main> 
           {children}
           <Toaster/>
           
           <Footer />
+          
         </main>
       </body>
     </html>
   );
 }
+
+
 
 
