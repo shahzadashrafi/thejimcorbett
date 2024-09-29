@@ -1,3 +1,4 @@
+'use client';
 import EnquiryForm from "@/components/enquiry";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";

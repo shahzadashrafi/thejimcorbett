@@ -12,6 +12,16 @@ export default function SignupPage(){
         date: ""
     })
 
+    const [user, setUser] = useState({
+        username:"username",
+        email: "",
+        password: "",
+        date: ""
+    })
+
+    const onSignup=() =>{
+        return null;
+    }
     const [buttonDisabled, setButtonDisabled] = useState(false);
 
     const [loading, setLoading] = useState(false)

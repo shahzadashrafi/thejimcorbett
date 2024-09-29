@@ -96,7 +96,7 @@ export default function DesktopMenu(){
                             href="/docs/installation"
                             title="Jim Corbett Night Stay"
                           >
-                            Night Accommodation in Corbett Park's Zone with
+                            Night Accommodation in Corbett Parks Zone with
                             Safari Experiences in Days.
                           </ListItem>
                           <ListItem

@@ -62,7 +62,7 @@ export default function EnquiryForm(){
         name : '',
         mobile: '',
         email : '',
-        date : '' 
+        date : null
       }
     })
 

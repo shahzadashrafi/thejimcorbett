@@ -8,6 +8,6 @@ export const enquirySchema = z.object({
     .regex(/^[a-zA-Z]+[-'s]?[a-zA-Z ]+$/, "Name must have only Characters and whitespaces"),
   mobile: z.string().min(10, "Mobile Number should be 10 character long").regex(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/, "Invalid Mobile Number"),
   email: z.string().email({ message: "Invalid Email Address" }),
-  date: z.date()
+  date: z.date().nullable()
 });
 

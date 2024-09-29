@@ -25,7 +25,7 @@ export default function CorbettSafari() {
                                 <span className="block xl:inline">Night Stay </span>
                                 <span className="block text-white xl:inline">In The Wild..</span>
                             </h1>
-                            <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It's never been easier to build beautiful websites that convey your message and tell your story.</p>
+                            <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl"> never been easier to build beautiful websites that convey your message and tell your story.</p>
                             
                         </div>
                     </div>

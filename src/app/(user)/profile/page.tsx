@@ -23,7 +23,7 @@ export default function ProfilePage() {
           <div className="w-full flex justify-between items-center mb-3 mt-12 pl-3">
             <div>
               <h3 className="text-lg font-semibold text-slate-800">
-                Visitor's Enquiries
+                Visitors Enquiries
               </h3>
               <p className="text-slate-500">Sorted by date</p>
             </div>
@@ -79,10 +79,10 @@ export default function ProfilePage() {
               </thead>
               <tbody>
                {
-                data && data.length>0 ? data.map(data=>
-                  <tr className="hover:bg-slate-50">
+                data && data.length>0 ? data.map((data:any,index:any)=>
+                  <tr className="hover:bg-slate-50" key={index}>
                     <td className="p-4 border-b border-slate-200 py-5">
-                    <p className="block font-semibold text-sm text-slate-800">{data.name}</p>
+                    <p className="block fosnt-semibold text-sm text-slate-800">{data.name}</p>
                 </td>
                 <td className="p-4 border-b border-slate-200 py-5">
                   <p className="text-sm text-slate-500">

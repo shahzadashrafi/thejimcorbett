@@ -13,7 +13,7 @@ interface SidebarMobileProps{
 }
 
 
-export default function MobileMenu(props: SidebarMobileProps){
+export default function MobileMenu(props: any){
     return(
         <Sheet>
             <SheetTrigger asChild>
