@@ -191,7 +191,7 @@ export default function Home() {
               />
             </AspectRatio>
             <div className="relative bottom-0 left-0 w-full px-6 py-2">
-              <h1 className="max-w-7xl py-5 pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+              <h1 className="max-w-7xl text-center pl-4 mx-auto text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
                 Jim Corbett Day Visit
               </h1>
               <div className="flex justify-between">
@@ -359,23 +359,20 @@ export default function Home() {
   );
 }
 
-const DummyContent = () => {
+const RoyalBengalTigerContent:any = () => {
   return (
     <>
-      {[...new Array(3).fill(1)].map((_, index) => {
+      {[...new Array(1).fill(1)].map((_, index) => {
         return (
           <div
-            key={"dummy-content" + index}
+            key={"royal-bengal-tiger-content" + index}
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                The first rule of Apple club is that you boast about Apple club.
+                Bold line
               </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
             </p>
             <Image
               src = "/hero1.png"
@@ -390,19 +387,79 @@ const DummyContent = () => {
     </>
   );
 };
- 
+
+
+
+
+const DeersContent:any = () => {
+  return (
+    <>
+      {[...new Array(1).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"deers-content" + index}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="font-bold text-neutral-700 dark:text-neutral-200">
+                Bold line
+              </span>{" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
+            </p>
+            <Image
+              src = "/hero1.png"
+              alt="Macbook mockup from Aceternity UI"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+            />
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+const DummyContent:any = () => {
+  return (
+    <>
+      {[...new Array(1).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"dummy-content" + index}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="font-bold text-neutral-700 dark:text-neutral-200">
+                Deers line
+              </span>{" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
+            </p>
+            <Image
+              src = "/hero1.png"
+              alt="Macbook mockup from Aceternity UI"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+            />
+          </div>
+        );
+      })}
+    </>
+  );
+};
 const data = [
   {
     category: "",
     title: "Royal Bengal Tiger",
     src : "/hero1.png",
-    content: <DummyContent />,
+    content: <RoyalBengalTigerContent />,
   },
   {
     category: "",
     title: "Asian Elephant",
     src : "/elephant.jpg",
-    content: <DummyContent />,
+    content: <DeersContent />,
   },
   {
     category: "",
