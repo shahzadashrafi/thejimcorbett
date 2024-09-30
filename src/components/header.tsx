@@ -7,15 +7,14 @@ import {Pencil2Icon, TwitterLogoIcon, InstagramLogoIcon, GlobeIcon, EnvelopeClos
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import Image from "next/image";
 import React from "react";
-// import { useMediaQuery } from "@uidotdev/usehooks";
+import { useMediaQuery } from "usehooks-ts";
 import MenuToggle from "./menu-toggle";
 
 
 export default function Header(){
 //SETTING UP DESKTOP MODE BREAKPOINT
-  // const isDesktop = useMediaQuery('(min-width:640px)');
+   const isDesktop = useMediaQuery('(min-width:640px)');
 //IF DESKTOP MODE IS ACTIVE
-const isDesktop=true 
   if(isDesktop) return (<div className="container w-full flex flex-col py-5 px-0">
     <div className="upper-container flex flex-row pb-3">
       
