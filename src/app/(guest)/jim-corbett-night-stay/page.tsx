@@ -1,21 +1,12 @@
-"use client";
-
-  import { AspectRatio } from "@/components/ui/aspect-ratio"
-  
+"use client";  
 import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
-  
 export default function CorbettSafari() {
     const cards = data.map((card, index) => (
         <Card key={card.src} card={card} index={index} />
       ));
-    return(
-        
-
-
-            
-
+    return(          
         <section className="md:px-0">
             <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
                 <div className="flex flex-wrap items-center sm:-mx-3">
@@ -42,14 +33,7 @@ export default function CorbettSafari() {
       </h2>
       <Carousel items={cards} />
     </div>
-        </section>
-
-        
-     
-        
-
-
-        
+        </section>       
     )
 
 
@@ -89,7 +73,9 @@ const DummyContent = () => {
       </>
     );
   };
-   
+
+//THE DATA FOR APPLE CARD CAROUSEL
+
   const data = [
     {
       category: "Artificial Intelligence",

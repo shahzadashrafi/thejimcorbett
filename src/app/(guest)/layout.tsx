@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import EnquiryForm from "@/components/enquiry";
 import { Toaster } from "@/components/ui/toaster";
 import Floaters from "@/components/floaters";
 
@@ -20,8 +19,6 @@ const bgGradient = {
   background: `hsl(168.23deg 100% 3.22%)`
 }
 
-
-
 //ROOT LAYOUT FOR GENERAL SITE VISITORS
 export default function RootLayout({
   children,
@@ -31,15 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className="px-1 sm:px-[15%]" style={bgGradient}>
-      <Floaters/>
+        <Floaters />
         <Header />
-        
-        <main> 
+        <main>
           {children}
-          <Toaster/>
-          
+          <Toaster />
           <Footer />
-          
         </main>
       </body>
     </html>
