@@ -189,7 +189,7 @@ export default function Home() {
           </AspectRatio>
           <div className="relative bottom-0 left-0 w-full px-6 py-2">
             <h1 className="max-w-7xl text-center pl-4 mx-auto text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
-              Jim Corbett Day Visit
+              Jim Corbett Night Stay
             </h1>
             <div className="flex justify-between">
               <Button variant="details" size="lg">
@@ -200,7 +200,7 @@ export default function Home() {
                   </DialogTrigger>
                   <DialogContent>
                     <DialogHeader>
-                      <DialogTitle>Jim Corbett Day Visit</DialogTitle>
+                      <DialogTitle>Jim Corbett Night Stay</DialogTitle>
                       <DialogDescription>
                         <div className="my-5 overflow-y-auto max-h-[70vh]">
                           <div className="relative flex flex-col justify-center overflow-hidden">

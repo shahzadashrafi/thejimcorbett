@@ -9,49 +9,49 @@ export default function Footer(){
           
               <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
-                  <p className="font-black uppercase">Company</p>
+                  <p className="font-black uppercase dark:text-white">Company</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75" href="/pages/about"> About Us </a>
-                    <a className="hover:opacity-75" href=""> Meet the Team </a>
-                    <a className="hover:opacity-75" href=""> Contact Us</a>
-                    <a className="hover:opacity-75" href=""> FAQs </a>
-                    <a className="hover:opacity-75" href=""> Privacy Policy </a>
-                    <a className="hover:opacity-75" href=""> Terms &amp; Conditions </a>
-                    <a className="hover:opacity-75" href=""> Returns Policy </a>
+                    <a className="hover:opacity-75 dark:text-white" href="/pages/about"> About Us </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Meet the Team </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Contact Us</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> FAQs </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Privacy Policy </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Terms &amp; Conditions </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Returns Policy </a>
                   </nav>
                 </div>
                 <div>
-                  <p className="font-black uppercase">Corbett Park</p>
+                  <p className="font-black uppercase dark:text-white">Corbett Park</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75" href=""> Dhikala Tourism Zone</a>
-                    <a className="hover:opacity-75" href=""> Jungle Safari Zones</a>
-                    <a className="hover:opacity-75" href=""> Featured Destinations</a>
-                    <a className="hover:opacity-75" href=""> Resorts &amp; Hotels</a>
-                    <a className="hover:opacity-75" href=""> Adventure Activities</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Dhikala Tourism Zone</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Jungle Safari Zones</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Featured Destinations</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Resorts &amp; Hotels</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Adventure Activities</a>
                   </nav>
                 </div>
                 <div>
-                  <p className="font-black uppercase">Attractions</p>
+                  <p className="font-black uppercase dark:text-white">Attractions</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75" href=""> Flora </a>
-                    <a className="hover:opacity-75" href=""> Fauna </a>
-                    <a className="hover:opacity-75" href=""> Marine Species </a>
-                    <a className="hover:opacity-75" href=""> Reptiles</a>
-                    <a className="hover:opacity-75" href=""> Birds &amp; Insects </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Flora </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Fauna </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Marine Species </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Reptiles</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Birds &amp; Insects </a>
                   </nav>
                 </div>
                 <div>
-                  <p className="font-black uppercase">Legal Informations</p>
+                  <p className="font-black uppercase dark:text-white">Legal Informations</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75" href=""> Accessibility </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Accessibility </a>
                   </nav>
                 </div>
               </div>
 
               <div>
-                <Image src="/hero1.png" width={300} height={300} className="mr-5" alt="logo" />
-                  <p className="max-w-xs mt-4 text-sm text-gray-600">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+                <Image src="/logo.png" width={300} height={300} className="mr-5" alt="logo" />
+                  <p className="max-w-xs mt-4 text-sm dark:text-white">
+                    <b className="font-black uppercase">Corbett <span className="lowercase">e</span>Services</b><br/><b>GSTIN: </b>05ERMPS0036M3ZD<br/><b>Address: </b>Ramnagar, Uttarakhand, India
                   </p>
                   <div className="flex mt-8 space-x-6 text-gray-600">
                     <a className="hover:opacity-75" href="" target="_blank" rel="noreferrer">
@@ -88,7 +88,7 @@ export default function Footer(){
               </div>
             </div>
             <p className="mt-8 text-xs text-gray-800">
-              © 2022 Comany Name
+              © 2022 Corbett eServices
             </p>
           </div>
         </footer>
