@@ -94,7 +94,7 @@ export default function EnquiryForm(){
           title : 'Successfull Enquiry',
           description : res.data.message
         })
-        router.push('/home')
+        router.push('/')
         setIsSubmitting(false)
       } catch (error) {
         console.error('error in enquiry', error)

@@ -12,40 +12,28 @@ export default function Footer(){
                   <p className="font-black uppercase dark:text-white">Company</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
                     <a className="hover:opacity-75 dark:text-white" href="/pages/about"> About Us </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Meet the Team </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Contact Us</a>
+                    {/* <a className="hover:opacity-75 dark:text-white" href=""> Meet the Team </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Contact Us</a> */}
                     <a className="hover:opacity-75 dark:text-white" href=""> FAQs </a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Privacy Policy </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Terms &amp; Conditions </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Returns Policy </a>
+                    {/* <a className="hover:opacity-75 dark:text-white" href=""> Terms &amp; Conditions </a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Returns Policy </a> */}
                   </nav>
                 </div>
                 <div>
                   <p className="font-black uppercase dark:text-white">Corbett Park</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75 dark:text-white" href=""> Dhikala Tourism Zone</a>
+                    {/* <a className="hover:opacity-75 dark:text-white" href=""> Dhikala Tourism Zone</a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Jungle Safari Zones</a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Featured Destinations</a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Resorts &amp; Hotels</a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Adventure Activities</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Adventure Activities</a> */}
+                    <a className="hover:opacity-75 dark:text-white" href=""> Jim Corbett Zones</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Forest Rest Houses</a>
+                    <a className="hover:opacity-75 dark:text-white" href=""> Travel Guide</a>
                   </nav>
                 </div>
-                <div>
-                  <p className="font-black uppercase dark:text-white">Attractions</p>
-                  <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75 dark:text-white" href=""> Flora </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Fauna </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Marine Species </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Reptiles</a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Birds &amp; Insects </a>
-                  </nav>
-                </div>
-                <div>
-                  <p className="font-black uppercase dark:text-white">Legal Informations</p>
-                  <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75 dark:text-white" href=""> Accessibility </a>
-                  </nav>
-                </div>
+                
               </div>
 
               <div>

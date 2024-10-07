@@ -24,18 +24,18 @@ export default function Home() {
   ));
   return (
     <section className="home-header">
-      <div className="grid grid-col-1 md:grid-cols-2">
-        <div className="relative w-full mb-10 md:mb-0 overflow-hidden hover:bg-slate-900 hover:text-white hover:opacity-80 hover:rounded">
+      <div className="grid grid-col-1 md:grid-cols-2 md:space-x-4">
+        <div className="relative w-full md:mb-0 overflow-hidden hover:bg-slate-900 hover:text-white hover:opacity-80 hover:rounded">
           <AspectRatio ratio={4 / 4} className="bg-none">
             <Image
-              src="/hero1.png"
+              src="/tiger3.jpg"
               alt="Photo by Drew Beamer"
               fill
               className="rounded-md object-cover"
             />
           </AspectRatio>
           <div className="relative bottom-0 left-0 w-full px-6 py-2">
-            <h1 className="max-w-7xl text-center pl-4 mx-auto text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
+            <h1 className="max-w-7xl text-center pl-4 mx-auto text-2xl md:text-4xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
               Jim Corbett Day Visit
             </h1>
             <div className="flex justify-between">
@@ -56,7 +56,7 @@ export default function Home() {
                                 <div className="relative flex items-end flex-col before:block before:absolute before:h-1/6 before:w-4  before:bottom-0 before:left-0 before:rounded-lg  before:transition-all overflow-hidden">
                                   <div className="rounded-xl overflow-hidden">
                                     <Image
-                                      src="/hero1.png"
+                                      src="/crocodile.jpg"
                                       width={800}
                                       height={800}
                                       alt="s"
@@ -181,14 +181,14 @@ export default function Home() {
         <div className="relative w-full mb-10 md:mb-0 overflow-hidden hover:bg-slate-900 hover:text-white hover:opacity-80 hover:rounded">
           <AspectRatio ratio={4 / 4} className="bg-none">
             <Image
-              src="/hero1.png"
+              src="/elephant.jpg"
               alt="Photo by Drew Beamer"
               fill
               className="rounded-md object-cover"
             />
           </AspectRatio>
           <div className="relative bottom-0 left-0 w-full px-6 py-2">
-            <h1 className="max-w-7xl text-center pl-4 mx-auto text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
+            <h1 className="max-w-7xl text-center pl-4 mx-auto text-2xl md:text-4xl font-bold text-neutral-800 dark:text-neutral-200 font-sans py-5">
               Jim Corbett Night Stay
             </h1>
             <div className="flex justify-between">
@@ -209,7 +209,7 @@ export default function Home() {
                                 <div className="relative flex items-end flex-col before:block before:absolute before:h-1/6 before:w-4  before:bottom-0 before:left-0 before:rounded-lg  before:transition-all overflow-hidden">
                                   <div className="rounded-xl overflow-hidden">
                                     <Image
-                                      src="/hero1.png"
+                                      src="/crocodile.jpg"
                                       width={800}
                                       height={800}
                                       alt="s"
@@ -339,11 +339,11 @@ export default function Home() {
         </h2>
         <Carousel items={cards} />
       </div>
-    </section>      
+    </section>
   );
 }
 
-const RoyalBengalTigerContent:any = () => {
+const RoyalBengalTigerContent: any = () => {
   return (
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
@@ -359,7 +359,7 @@ const RoyalBengalTigerContent:any = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
             </p>
             <Image
-              src = "/hero1.png"
+              src="/tiger1.jpg"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -375,7 +375,7 @@ const RoyalBengalTigerContent:any = () => {
 
 
 
-const DeersContent:any = () => {
+const DeersContent: any = () => {
   return (
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
@@ -391,7 +391,7 @@ const DeersContent:any = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
             </p>
             <Image
-              src = "/hero1.png"
+              src="/sambhar.jpg"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -404,7 +404,7 @@ const DeersContent:any = () => {
   );
 };
 
-const DummyContent:any = () => {
+const DummyContent: any = () => {
   return (
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
@@ -420,7 +420,7 @@ const DummyContent:any = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas quo, laboriosam molestiae amet veritatis illum consequatur nemo numquam quia alias consequuntur eum eveniet tempora dignissimos odio est! Laborum, iure.
             </p>
             <Image
-              src = "/hero1.png"
+              src="/hero1.png"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -440,32 +440,32 @@ const data = [
   {
     category: "",
     title: "Royal Bengal Tiger",
-    src : "/hero1.png",
+    src: "/tiger1.jpg",
     content: <RoyalBengalTigerContent />,
   },
   {
     category: "",
     title: "Asian Elephant",
-    src : "/elephant.jpg",
+    src: "/elephant5.jpg",
     content: <DeersContent />,
   },
   {
     category: "",
     title: "Leopard",
-    src : "/hero1.png",
+    src: "/hero1.png",
     content: <DummyContent />,
   },
- 
+
   {
     category: "",
     title: "Deers",
-    src : "/sambhar.jpg",
+    src: "/sambhar.jpg",
     content: <DummyContent />,
   },
   {
     category: "",
     title: "Crocodile",
-    src : "/crocodile.jpg",
+    src: "/crocodile.jpg",
     content: <DummyContent />,
   }
 ];

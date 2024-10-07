@@ -17,8 +17,8 @@ export default function MobileMenu(props: any){
     return(
         <Sheet>
             <SheetTrigger asChild>
-                <Button>
-                    <HamburgerMenuIcon/>  Menu
+                <Button className="absolute top-5 left-5 rounded-full">
+                    <HamburgerMenuIcon/> 
                 </Button>
             </SheetTrigger>
             <SheetContent  side='left'>
@@ -32,17 +32,31 @@ export default function MobileMenu(props: any){
                 />
             </div>
             
-            <Link href="/" legacyBehavior passHref>
-                Home
-            </Link>
 
-            <Link href="/" legacyBehavior passHref>
-                Jim Corbett Day Visit
-            </Link>
+<nav className="">
+  
+    
+      <ul className="flex flex-col font-medium p-0 md:p-0 mt-4 ">
+        <li>
+          <a href="#" className="block py-2 px-3 text-white" aria-current="page">Home</a>
+        </li>
+        
+        <li>
+          <a href="#" className="block py-2 px-3 text-white" aria-current="page">Jim Corbett Day Visit</a>
+        </li>
 
-            <Link href="/" legacyBehavior passHref>
-                Jim Corbett Night Stay
-            </Link>           
+        <li>
+          <a href="#" className="block py-2 px-3 text-white" aria-current="page">Jim Corbett Night Stay</a>
+        </li>
+
+        <li>
+          <a href="#" className="block py-2 px-3 text-white" aria-current="page">About Us</a>
+        </li>
+      </ul>
+  
+</nav>
+
+                   
             </SheetContent>
         </Sheet>
     )

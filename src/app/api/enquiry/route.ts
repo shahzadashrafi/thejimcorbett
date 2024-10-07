@@ -17,14 +17,14 @@ export async function POST(request: NextRequest) {
     console.log(reqBody);
 
     //find user by email if exist using User Model
-    const enquiry = await Enquiry.findOne({ email });
+    //const enquiry = await Enquiry.findOne({ email });
     //if exist then already exist
-    if (enquiry) {
-      return NextResponse.json(
-        { error: "Your Enquiry is already submitted" },
-        { status: 400 }
-      );
-    }
+    //if (enquiry) {
+    //  return NextResponse.json(
+    //    { error: "Your Enquiry is already submitted" },
+    //    { status: 400 }
+    //  );
+    //}
     
     const newEnquiry = new Enquiry({name, email, mobile, date});
     //savind user into database
