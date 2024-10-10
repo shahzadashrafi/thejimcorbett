@@ -28,7 +28,7 @@ export default function JimCorbettSafari() {
         <div className="sm:mt-40 relative w-full md:mb-0 overflow-hidden hover:text-white hover:opacity-80 hover:rounded">
           <AspectRatio ratio={4 / 4} className="bg-none">
             <Image
-              src="/tiger3.jpg"
+              src="/logo.png"
               alt="Photo by Drew Beamer"
               fill
               className="rounded-xl object-cover"

@@ -9,6 +9,18 @@ import { cn } from "@/lib/utils";
 
 
 const components: { title: string; href: string; description: string }[] = [
+  {
+    title: "Zones",
+    href: "/corbett-park-zone",
+    description:
+      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+  },
+  {
+    title: "Forest Rest House",
+    href: "/forest-rest-house",
+    description:
+      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+  },
     {
       title: "Blogs",
       href: "/blogs",
@@ -17,33 +29,23 @@ const components: { title: string; href: string; description: string }[] = [
     },
     {
       title: "About Us",
-      href: "/agency",
+      href: "/about",
       description:
         "Know about our travel agency - Agency Informations, Policies, Portfolio and Team",
     },
     {
       title: "FAQs",
-      href: "/corbett-park/zones",
+      href: "/faq",
       description:
         "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
     },
     {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
+      title: "Privacy Policy",
+      href: "/privacy-policy",
       description: "Visually or semantically separates content.",
-    },
-    {
-      title: "Tabs",
-      href: "/docs/primitives/tabs",
-      description:
-        "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-    },
-    {
-      title: "Tooltip",
-      href: "/docs/primitives/tooltip",
-      description:
-        "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-    },
+    }
+    
+    
   ];
 
 export default function DesktopMenu(){
@@ -88,19 +90,19 @@ export default function DesktopMenu(){
                               </a>
                             </NavigationMenuLink>
                           </li>
-                          <ListItem href="/docs" title="Jim Corbett Day Visit">
+                          <ListItem href="/jim-corbett-safari" title="Jim Corbett Day Visit">
                             Day Visit cab journey in dense wildlife zone of
                             Corbett Park
                           </ListItem>
                           <ListItem
-                            href="/docs/installation"
+                            href="/jim-corbett-night-stay"
                             title="Jim Corbett Night Stay"
                           >
                             Night Accommodation in Corbett Parks Zone with
                             Safari Experiences in Days.
                           </ListItem>
                           <ListItem
-                            href="/docs/primitives/typography"
+                            href="/jim-corbett-extras"
                             title="Extra Adventures"
                           >
                             Hill Stations, Public Forest Destinations and Lake
@@ -128,11 +130,11 @@ export default function DesktopMenu(){
                     </NavigationMenuItem>
 
                     <NavigationMenuItem>
-                      <Link href="/docs" legacyBehavior passHref>
+                      <Link href="/pay-now" legacyBehavior passHref>
                         <NavigationMenuLink
                           className={navigationMenuTriggerStyle()}
                         >
-                          Book Now
+                          Pay Now
                         </NavigationMenuLink>
                       </Link>
                     </NavigationMenuItem>

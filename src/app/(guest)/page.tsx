@@ -17,12 +17,25 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
+
+
+//home page alert box
+
+
+
+
+
 //form validations
 export default function Home() {
   const cards = data.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));
   return (
+
+    
+
+
+
     <section className="home-header">
       <div className="grid grid-col-1 md:grid-cols-2 md:space-x-4">
         <div className="relative w-full md:mb-0 overflow-hidden hover:bg-slate-900 hover:text-white hover:opacity-80 hover:rounded">

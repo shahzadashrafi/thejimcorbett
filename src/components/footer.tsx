@@ -11,11 +11,11 @@ export default function Footer(){
                 <div>
                   <p className="font-black uppercase dark:text-white">Company</p>
                   <nav className="flex flex-col mt-4 space-y-2 text-sm text-zinc-900 font-semibold">
-                    <a className="hover:opacity-75 dark:text-white" href="/pages/about"> About Us </a>
+                    <a className="hover:opacity-75 dark:text-white" href="/about"> About Us </a>
                     {/* <a className="hover:opacity-75 dark:text-white" href=""> Meet the Team </a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Contact Us</a> */}
-                    <a className="hover:opacity-75 dark:text-white" href=""> FAQs </a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Privacy Policy </a>
+                    <a className="hover:opacity-75 dark:text-white" href="/faq"> FAQs </a>
+                    <a className="hover:opacity-75 dark:text-white" href="/privacy-policy"> Privacy Policy </a>
                     {/* <a className="hover:opacity-75 dark:text-white" href=""> Terms &amp; Conditions </a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Returns Policy </a> */}
                   </nav>
@@ -28,9 +28,9 @@ export default function Footer(){
                     <a className="hover:opacity-75 dark:text-white" href=""> Featured Destinations</a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Resorts &amp; Hotels</a>
                     <a className="hover:opacity-75 dark:text-white" href=""> Adventure Activities</a> */}
-                    <a className="hover:opacity-75 dark:text-white" href=""> Jim Corbett Zones</a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Forest Rest Houses</a>
-                    <a className="hover:opacity-75 dark:text-white" href=""> Travel Guide</a>
+                    <a className="hover:opacity-75 dark:text-white" href="/zones"> Jim Corbett Zones</a>
+                    <a className="hover:opacity-75 dark:text-white" href="/forest-rest-house"> Forest Rest Houses</a>
+                    <a className="hover:opacity-75 dark:text-white" href="/faq"> Travel Guide</a>
                   </nav>
                 </div>
                 
