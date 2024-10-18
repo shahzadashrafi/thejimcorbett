@@ -38,37 +38,67 @@ export default function JimCorbettSafari() {
         </div>
         <div className="relative w-full mb-10 md:mb-0 overflow-hidden hover:text-white hover:opacity-80 hover:rounded">
             <h1 className="text-4xl m-5 font-extrabold tracking-tight text-white-900 text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                      <span className="block xl:inline">Day Visit,</span>
-                      <span className="block text-white xl:inline"> In The Wild..</span>
+                      <span className="block xl:inline">Safari</span>
+                      <span className="block text-white xl:inline"> Zones..</span>
                   </h1>
 
 
                   <div className="px-4">
                                   <div className="overflow-y-auto">
-                                  <h3 className="mb-4 font-semibold text-2xl text-white-400">
-                                  Overview of Jim Corbett Day Visit
-                                  </h3>
+                                  
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    A day visit to Jim Corbett National Park is an unforgettable experience for nature and wildlife enthusiasts. Established in 1936, Corbett is India’s oldest national park and is known for its rich biodiversity, dense forests, and the famed Bengal tiger. Visitors on a day trip can experience the beauty of the park’s flora and fauna through well-organized safaris. Whether you’re looking for a quick escape into nature or a chance to spot wildlife, a day visit to Corbett offers an adventure-filled excursion.
+                                    Jim Corbett National Park, India’s oldest national park, is renowned for its rich biodiversity and stunning landscapes. Nestled in the foothills of the Himalayas, it offers several Corbett safari zones that attract wildlife enthusiasts and nature lovers from around the world. Each zone has its unique charm and opportunities for wildlife sightings, making it essential to understand the various Corbett National Park zones for an unforgettable experience.
                                     </p>
-                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">
-                                    Jungle Safari in Corbett National Park
-</h3>
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Dhikala Zone
+                                    </h3>
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    One of the main highlights of a Jim Corbett day visit is the Corbett Safari, a thrilling way to explore the park’s diverse landscapes and wildlife. The park offers both jeep safaris and canter safaris, which take visitors deep into various zones of the park, such as Dhikala, Bijrani, and Jhirna. These safaris give you the opportunity to spot majestic Bengal tigers, leopards, elephants, deer, and a variety of bird species.
+                                    The Dhikala Zone is the most popular area within Corbett National Park, known for its diverse wildlife and stunning scenery. This zone features vast grasslands, dense Sal forests, and the meandering Ramganga River. Visitors often spot the elusive Royal Bengal Tiger, Asiatic elephants, and a variety of deer species. The Dhikala Canter Safari allows for daytime exploration, making it accessible to those without overnight permits.
 
-The Corbett Safari also allows visitors to experience the park's beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
-                                    
-                                    <ul
-                                      role="list"
-                                      className="marker:text-sky-400 list-disc pl-5 space-y-3 text-white text-xl "
-                                    >
-                                      <li>
-                                        Upto 4 Hours Journey
-                                      </li>
-                                      <li>Max People : 6 plus 2 Children less than 12 years</li>
-                                      
-                                    </ul>
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Bijrani
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
+                                    The Bijrani Zone is another favorite among tourists, characterized by its rich flora and fauna. It is home to a variety of wildlife, including leopards, sloth bears, and numerous bird species. The zone's diverse landscape, featuring hills and dense forests, provides an ideal backdrop for wildlife safaris. Bijrani offers both jeep and canter safaris, ensuring visitors can explore at their own pace.
+
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Jhirna Zone
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Jhirna Zone is famous for its open grasslands and thick jungles, making it a hotspot for wildlife sightings. Unlike other zones, Jhirna is open year-round, providing ample opportunities for visitors to encounter wildlife, including tigers, elephants, and various bird species. The jeep safari in Jhirna offers a thrilling experience, with chances to see animals in their natural habitats.
+
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Dhela Zone
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Dhela Zone is a relatively newer addition to the park's safari zones. It boasts a unique ecosystem with varied landscapes, including hills and valleys. Dhela is known for its rich biodiversity, and visitors often spot a wide range of animals, such as deer, wild boars, and the majestic tiger. The jeep safaris here provide a thrilling adventure through this less-explored region.
+
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Durga Devi Zone
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Durga Devi Zone is situated on the eastern side of Corbett National Park. Known for its scenic beauty, this zone is popular for birdwatching, especially for spotting the vibrant Great Hornbill. The rugged terrain and dense forests provide a serene environment, attracting those looking for tranquility amid nature.
+
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Garjiya Zone
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Garjia Zone is located near the Kosi River and is famous for its picturesque landscapes. This zone offers a chance to see a variety of wildlife, including crocodiles, deer, and various bird species. The jeep safaris here allow for exploration of both the riverbanks and forested areas, making it an excellent choice for nature lovers.
+
+
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">Sitabani Zone
+                                    </h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Sitabani Zone is not part of the core tiger reserve but is renowned for its rich biodiversity and peaceful ambiance. It is a great place for those looking to escape the crowds and enjoy nature. Sitabani is perfect for birdwatching and wildlife photography, with opportunities to see species like the Indian Gharial and a variety of birds.
+
+
+                                    </p>
                                   </div>
                                 </div>
               </div>

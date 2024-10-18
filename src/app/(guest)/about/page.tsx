@@ -38,19 +38,18 @@ export default function JimCorbettSafari() {
         </div>
         <div className="relative w-full mb-10 md:mb-0 overflow-hidden hover:text-white hover:opacity-80 hover:rounded">
             <h1 className="text-4xl m-5 font-extrabold tracking-tight text-white-900 text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                      <span className="block xl:inline">Day Visit,</span>
-                      <span className="block text-white xl:inline"> In The Wild..</span>
+                      <span className="block xl:inline">About Us</span>
+                      <span className="block text-white xl:inline"></span>
                   </h1>
 
 
                   <div className="px-4">
                                   <div className="overflow-y-auto">
                                   <h3 className="mb-4 font-semibold text-2xl text-white-400">
-                                  Overview of Jim Corbett Day Visit
+                                  Company Information
                                   </h3>
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    A day visit to Jim Corbett National Park is an unforgettable experience for nature and wildlife enthusiasts. Established in 1936, Corbett is India’s oldest national park and is known for its rich biodiversity, dense forests, and the famed Bengal tiger. Visitors on a day trip can experience the beauty of the park’s flora and fauna through well-organized safaris. Whether you’re looking for a quick escape into nature or a chance to spot wildlife, a day visit to Corbett offers an adventure-filled excursion.
-                                    </p>
+                                    We offers the jim corbett national park tours and travels services including home stays, resorts accommodations, adventure activities etc</p>
                                     <h3 className="mb-4 font-semibold text-2xl text-white-400">
                                     Jungle Safari in Corbett National Park
 </h3>

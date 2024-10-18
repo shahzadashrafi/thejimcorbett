@@ -38,37 +38,40 @@ export default function JimCorbettSafari() {
         </div>
         <div className="relative w-full mb-10 md:mb-0 overflow-hidden hover:text-white hover:opacity-80 hover:rounded">
             <h1 className="text-4xl m-5 font-extrabold tracking-tight text-white-900 text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                      <span className="block xl:inline">Day Visit,</span>
-                      <span className="block text-white xl:inline"> In The Wild..</span>
+                      <span className="block xl:inline">Corbett Park</span>
+                      <span className="block text-white xl:inline"> Night Stays..</span>
                   </h1>
 
 
                   <div className="px-4">
                                   <div className="overflow-y-auto">
                                   <h3 className="mb-4 font-semibold text-2xl text-white-400">
-                                  Overview of Jim Corbett Day Visit
-                                  </h3>
+                                  Dhikala Forest Rest House                                  </h3>
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    A day visit to Jim Corbett National Park is an unforgettable experience for nature and wildlife enthusiasts. Established in 1936, Corbett is India’s oldest national park and is known for its rich biodiversity, dense forests, and the famed Bengal tiger. Visitors on a day trip can experience the beauty of the park’s flora and fauna through well-organized safaris. Whether you’re looking for a quick escape into nature or a chance to spot wildlife, a day visit to Corbett offers an adventure-filled excursion.
-                                    </p>
-                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">
-                                    Jungle Safari in Corbett National Park
-</h3>
-                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    One of the main highlights of a Jim Corbett day visit is the Corbett Safari, a thrilling way to explore the park’s diverse landscapes and wildlife. The park offers both jeep safaris and canter safaris, which take visitors deep into various zones of the park, such as Dhikala, Bijrani, and Jhirna. These safaris give you the opportunity to spot majestic Bengal tigers, leopards, elephants, deer, and a variety of bird species.
+                                    The Dhikala Forest Rest House is perhaps the most sought-after accommodation in Corbett. Located in the Dhikala Zone, it provides breathtaking views of the grasslands and is renowned for wildlife sightings, including tigers and elephants. With 28 double-bed rooms and a dormitory, it caters to both families and solo travelers. Staying here allows guests to embark on early morning and late evening safaris, maximizing their wildlife experiences.
 
-The Corbett Safari also allows visitors to experience the park's beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
-                                    
-                                    <ul
-                                      role="list"
-                                      className="marker:text-sky-400 list-disc pl-5 space-y-3 text-white text-xl "
-                                    >
-                                      <li>
-                                        Upto 4 Hours Journey
-                                      </li>
-                                      <li>Max People : 6 plus 2 Children less than 12 years</li>
-                                      
-                                    </ul>
+</p>
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">
+                                    Gairal Rest House</h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
+                                    The Gairal Rest House is situated near the Gairal Crocodile Point, offering a tranquil environment perfect for nature lovers. It features comfortable accommodation and easy access to the river, where visitors can spot crocodiles and a variety of bird species. This rest house is ideal for those seeking peace and quiet, combined with the thrill of wildlife observation.
+                                    </p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">
+                                    Bijrani Forest Rest House</h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
+                                    Located in the Bijrani Zone, the Bijrani Forest Rest House is known for its vibrant wildlife and lush surroundings. This area is rich in biodiversity, making it a popular choice for birdwatchers and wildlife enthusiasts. The rest house offers a comfortable stay with access to exciting safari routes that promise unforgettable encounters with wildlife.
+
+</p>
+
+                                    <h3 className="mb-4 font-semibold text-2xl text-white-400">
+                                    Jhirna Rest House</h3>
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
+                                    The Jhirna Rest House is open year-round and is situated in the Jhirna Zone, famous for its open grasslands and dense forests. This accommodation option is ideal for those who want to explore the park during the monsoon season when wildlife is particularly active. The rest house provides basic amenities while allowing guests to immerse themselves in the wilderness.
+
+</p>
+
+                                   
                                   </div>
                                 </div>
               </div>
