@@ -56,7 +56,7 @@ export default function JimCorbettSafari() {
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
                                     One of the main highlights of a Jim Corbett day visit is the Corbett Safari, a thrilling way to explore the park’s diverse landscapes and wildlife. The park offers both jeep safaris and canter safaris, which take visitors deep into various zones of the park, such as Dhikala, Bijrani, and Jhirna. These safaris give you the opportunity to spot majestic Bengal tigers, leopards, elephants, deer, and a variety of bird species.
 
-The Corbett Safari also allows visitors to experience the park's beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
+The Corbett Safari also allows visitors to experience the park&apos;s beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
                                     
                                     <ul
                                       role="list"
@@ -193,7 +193,7 @@ const DeersContent: any = () => {
             />
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park, one of India's most renowned wildlife reserves, is home to a variety of deer species, each adding to the park’s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
+            Corbett National Park, one of India&apos;s most renowned wildlife reserves, is home to a variety of deer species, each adding to the park’s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
             </p>
 
             <br/>
@@ -209,7 +209,7 @@ const DeersContent: any = () => {
             <h3 className="font-bold text-3xl text-neutral-700 dark:text-neutral-200">Why Corbett Park is Best for Sighting Deer Species?</h3>
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you're observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
+            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you&apos;re observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
             </p>
           </div>
         );

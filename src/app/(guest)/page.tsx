@@ -17,8 +17,6 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
-
-
 //home page alert box
 
 
@@ -30,12 +28,7 @@ export default function Home() {
   const cards = data.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));
-  return (
-
-    
-
-
-
+  return ( 
     <section className="home-header">
       <div className="grid grid-col-1 md:grid-cols-2 md:space-x-4">
         <div className="relative w-full md:mb-0 overflow-hidden hover:bg-slate-900 hover:text-white hover:opacity-80 hover:rounded">
@@ -79,18 +72,18 @@ export default function Home() {
                                 <div className="px-4">
                                   <div className="overflow-y-auto">
                                   <h3 className="mb-4 font-semibold text-xl text-gray-400">
-                                  Overview of Jim Corbett Day Visit
+                                    Overview of Jim Corbett Day Visit
                                   </h3>
                                     <p className="peer mt-4 mb-4 text-gray-400 content-center overflow-y-auto">
-                                    A day visit to Jim Corbett National Park is an unforgettable experience for nature and wildlife enthusiasts. Established in 1936, Corbett is India’s oldest national park and is known for its rich biodiversity, dense forests, and the famed Bengal tiger. Visitors on a day trip can experience the beauty of the park’s flora and fauna through well-organized safaris. Whether you’re looking for a quick escape into nature or a chance to spot wildlife, a day visit to Corbett offers an adventure-filled excursion.
+                                      A day visit to Jim Corbett National Park is an unforgettable experience for nature and wildlife enthusiasts. Established in 1936, Corbett is India&apos;s oldest national park and is known for its rich biodiversity, dense forests, and the famed Bengal tiger. Visitors on a day trip can experience the beauty of the park&apos;s flora and fauna through well-organized safaris. Whether you are looking for a quick escape into nature or a chance to spot wildlife, a day visit to Corbett offers an adventure-filled excursion.
                                     </p>
                                     <h3 className="mb-4 font-semibold text-xl text-gray-400">
                                     Jungle Safari in Corbett National Park
 </h3>
                                     <p className="peer mt-4 mb-4 text-gray-400 content-center overflow-y-auto">
-                                    One of the main highlights of a Jim Corbett day visit is the Corbett Safari, a thrilling way to explore the park’s diverse landscapes and wildlife. The park offers both jeep safaris and canter safaris, which take visitors deep into various zones of the park, such as Dhikala, Bijrani, and Jhirna. These safaris give you the opportunity to spot majestic Bengal tigers, leopards, elephants, deer, and a variety of bird species.
+                                    One of the main highlights of a Jim Corbett day visit is the Corbett Safari, a thrilling way to explore the park&apos;s diverse landscapes and wildlife. The park offers both jeep safaris and canter safaris, which take visitors deep into various zones of the park, such as Dhikala, Bijrani, and Jhirna. These safaris give you the opportunity to spot majestic Bengal tigers, leopards, elephants, deer, and a variety of bird species.
 
-The Corbett Safari also allows visitors to experience the park's beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
+The Corbett Safari also allows visitors to experience the park&apos;s beautiful riverine landscapes, grasslands, and hilly terrain, making it a great option for wildlife photography. With the help of expert guides, your chances of spotting iconic wildlife species increase, turning a day visit into a thrilling and educational adventure.                                    </p>
                                     
                                     <ul
                                       role="list"
@@ -234,7 +227,7 @@ The Corbett Safari also allows visitors to experience the park's beautiful river
                                     </h3>
                                     <p className="peer mt-4 mb-4 text-gray-400 content-center overflow-y-auto">
                                     The highlight of a Corbett Night Stay is the Corbett Safari, which allows you to explore the best zones of Corbett National Park. Dhikala and Bijrani is particularly known for its vast grasslands, riverine habitats, and dense forests, offering one of the most scenic safari experiences in India. The early morning and late afternoon safaris increase your chances of seeing Bengal tigers, leopards, wild elephants, and various species of deer. Apart from Dhikala and Bijrani, you can also explore other zones like Jhirna, Dhela and Durgadevi, each offering diverse landscapes and unique wildlife sightings.
-                                      Dhikala stands out due to its exclusive location within the core zone, which is accessible only to visitors staying in the forest lodge. This restricted access means fewer tourists, enhancing the chances of an intimate wildlife experience. Expert guides and drivers accompany you on the safari, ensuring you get to see the best of Corbett's flora and fauna.                                    </p>
+                                      Dhikala stands out due to its exclusive location within the core zone, which is accessible only to visitors staying in the forest lodge. This restricted access means fewer tourists, enhancing the chances of an intimate wildlife experience. Expert guides and drivers accompany you on the safari, ensuring you get to see the best of Corbett&apos;s flora and fauna.                                    </p>
                                     
                                       <h3 className="mb-4 font-semibold text-xl text-gray-400">
                                       Accommodation in Dhikala, Bijrani and Other Corbett National Park Zones
@@ -449,7 +442,7 @@ const DeersContent: any = () => {
             />
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park, one of India's most renowned wildlife reserves, is home to a variety of deer species, each adding to the park’s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
+            Corbett National Park, one of India&apos;s most renowned wildlife reserves, is home to a variety of deer species, each adding to the park&apos;s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
             </p>
 
             <br/>
@@ -465,7 +458,7 @@ const DeersContent: any = () => {
             <h3 className="font-bold text-3xl text-neutral-700 dark:text-neutral-200">Why Corbett Park is Best for Sighting Deer Species?</h3>
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you're observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
+            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you&apos;re observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
             </p>
           </div>
         );

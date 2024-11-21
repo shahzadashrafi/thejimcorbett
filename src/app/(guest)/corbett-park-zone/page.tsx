@@ -47,7 +47,7 @@ export default function JimCorbettSafari() {
                                   <div className="overflow-y-auto">
                                   
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    Jim Corbett National Park, India’s oldest national park, is renowned for its rich biodiversity and stunning landscapes. Nestled in the foothills of the Himalayas, it offers several Corbett safari zones that attract wildlife enthusiasts and nature lovers from around the world. Each zone has its unique charm and opportunities for wildlife sightings, making it essential to understand the various Corbett National Park zones for an unforgettable experience.
+                                    Jim Corbett National Park, India&apos;s oldest national park, is renowned for its rich biodiversity and stunning landscapes. Nestled in the foothills of the Himalayas, it offers several Corbett safari zones that attract wildlife enthusiasts and nature lovers from around the world. Each zone has its unique charm and opportunities for wildlife sightings, making it essential to understand the various Corbett National Park zones for an unforgettable experience.
                                     </p>
                                     <h3 className="mb-4 font-semibold text-2xl text-white-400">Dhikala Zone
                                     </h3>
@@ -60,7 +60,7 @@ export default function JimCorbettSafari() {
                                     <h3 className="mb-4 font-semibold text-2xl text-white-400">Bijrani
                                     </h3>
                                     <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">
-                                    The Bijrani Zone is another favorite among tourists, characterized by its rich flora and fauna. It is home to a variety of wildlife, including leopards, sloth bears, and numerous bird species. The zone's diverse landscape, featuring hills and dense forests, provides an ideal backdrop for wildlife safaris. Bijrani offers both jeep and canter safaris, ensuring visitors can explore at their own pace.
+                                    The Bijrani Zone is another favorite among tourists, characterized by its rich flora and fauna. It is home to a variety of wildlife, including leopards, sloth bears, and numerous bird species. The zone&apos;s diverse landscape, featuring hills and dense forests, provides an ideal backdrop for wildlife safaris. Bijrani offers both jeep and canter safaris, ensuring visitors can explore at their own pace.
 
 
                                     </p>
@@ -74,7 +74,7 @@ export default function JimCorbettSafari() {
 
                                     <h3 className="mb-4 font-semibold text-2xl text-white-400">Dhela Zone
                                     </h3>
-                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Dhela Zone is a relatively newer addition to the park's safari zones. It boasts a unique ecosystem with varied landscapes, including hills and valleys. Dhela is known for its rich biodiversity, and visitors often spot a wide range of animals, such as deer, wild boars, and the majestic tiger. The jeep safaris here provide a thrilling adventure through this less-explored region.
+                                    <p className="peer mt-4 mb-4 text-xl text-gray-400 overflow-y-auto">The Dhela Zone is a relatively newer addition to the park&apos;s safari zones. It boasts a unique ecosystem with varied landscapes, including hills and valleys. Dhela is known for its rich biodiversity, and visitors often spot a wide range of animals, such as deer, wild boars, and the majestic tiger. The jeep safaris here provide a thrilling adventure through this less-explored region.
 
 
                                     </p>
@@ -224,7 +224,7 @@ const DeersContent: any = () => {
             />
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park, one of India's most renowned wildlife reserves, is home to a variety of deer species, each adding to the park’s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
+            Corbett National Park, one of India&apos;s most renowned wildlife reserves, is home to a variety of deer species, each adding to the park’s rich biodiversity. Four prominent types of deer found in Corbett include the Hawk Deer, Spotted Deer (Chital), Sambar Deer, and Barking Deer. These herbivorous animals play an essential role in the food chain, supporting the park’s predators such as tigers and leopards. Their presence makes Corbett National Park a prime destination for wildlife enthusiasts and photographers.
             </p>
 
             <br/>
@@ -240,7 +240,7 @@ const DeersContent: any = () => {
             <h3 className="font-bold text-3xl text-neutral-700 dark:text-neutral-200">Why Corbett Park is Best for Sighting Deer Species?</h3>
             <br/>
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl">
-            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you're observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
+            Corbett National Park offers unparalleled opportunities to witness a variety of deer species in their natural environment. The park’s vast expanse of forests, grasslands, and riverine ecosystems provides the perfect habitat for these deer. A Corbett safari allows visitors to explore the zones where each deer species thrives, increasing the chances of spotting them. Additionally, the park’s well-regulated safaris, knowledgeable guides, and rich biodiversity make it a top destination for deer sightings. Whether you&apos;re observing the elegant Spotted Deer or the elusive Barking Deer, Corbett provides an immersive wildlife experience.
             </p>
           </div>
         );
